@@ -1,0 +1,22 @@
+# Segredos / variáveis de ambiente
+.env
+.env.*
+*.key
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Cache do Python
+_pycache_/
+*.py[cod]
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
