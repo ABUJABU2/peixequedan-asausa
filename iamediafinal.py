@@ -23,6 +23,8 @@ layout='centered'
 #chamar api dentro do script
 load_dotenv()
 
+if "OPENAI_API_KEY" in st.secrets:
+    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 #cofg dos elementos da primeira cessão
 
